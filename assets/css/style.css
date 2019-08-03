@@ -85,7 +85,7 @@
     background-color: #666666;
     text-align: center;
     width: 100%;
-    margin-top: 750px;
+    margin-top: 450px;
     line-height: 25px;
     }
 
@@ -229,12 +229,18 @@
 
 
   @media screen and (max-width: 980px) {
-    
+    .mynameSpace{
+      float: left;
+    }
   }
 
   @media screen and (max-width:768px) {
     header{
       width: 100%;
+      
+    }
+    .mynameSpace{
+      float: left;
     }
     #outside{
       width: 100%;
@@ -247,4 +253,5 @@
     .mynameSpace{
       float: left;
     }
+    
   }
