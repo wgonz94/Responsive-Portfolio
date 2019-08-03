@@ -45,7 +45,7 @@
     color: #777777;
     border:solid  #dddddd;  
     background: #ffffff;
-    margin-left: 20%;
+    margin-left: ;
   }
  
   h2 {
@@ -225,4 +225,26 @@
       margin-top: 70px;
       line-height: 25px;
       
+  }
+
+
+  @media screen and (max-width: 980px) {
+    
+  }
+
+  @media screen and (max-width:768px) {
+    header{
+      width: 100%;
+    }
+    #outside{
+      width: 100%;
+    }
+    
+    
+  }
+
+  @media screen and (max-width:640px) {
+    .mynameSpace{
+      float: left;
+    }
   }
